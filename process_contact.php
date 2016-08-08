@@ -33,7 +33,7 @@ if (!$errors && !$missing) {
 
     // set up replacements for decorator plugin
     $replacements = [
-        'rubem.barros@primeconsulting.org'  =>
+        'chezloutcha@sapo.cv'  =>
             ['#subject#' => 'Arla Residencial']
    ];
 
