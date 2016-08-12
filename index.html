@@ -214,26 +214,26 @@
         </div>
         <div class="text-center ct-u-paddingTop90">
             <div class="container">
-                <div class="ct-sectionHeader ct-sectionHeader--type1 text-center ct-u-marginBottom90">
+                <div class="ct-sectionHeader ct-sectionHeader--type1 text-center ct-u-marginBottom90 t r">
                     <h3 class="ct-sectionHeader-title text-uppercase ct-u-colorWhite" style="margin-top:15px;">Serviços</h3>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
 
-                    <!--  foto foto do hotel -->
+                    <!--  foto foto do hotel visible-sm -->
                     <div class="col-sm-6">
-                       <img src="assets/images/serv.jpg" class="img-responsive img-rounded visible-lg visible-md visible-sm " style="height:380px;" alt="">
+                       <img src="assets/images/serv.jpg" class="img-responsive img-rounded visible-lg visible-md" style="height:380px;" alt="">
                     </div>
 
                     <!-- lista de serviços -->
-                    <div class="col-md-6" style="color:white">
+                    <div class="col-md-6 " style="color:white">
                         <ul class="list-unstyled alig">
-                            <li><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> Assistência no Aeroporto;</li>
-                            <li><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> Envio/recepção de faxes;</li>
-                            <li><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> Limpeza e arrumação diária dos quartos;</li>
-                            <li><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> TV a cabo/por assinatura;</li>
-                            <li><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> Videovigilância em zonas públicas e de circulação;</li>
+                            <li class="t "><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i > Assistência no Aeroporto;</li>
+                            <li class="r t"><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> Envio/recepção de faxes;</li>
+                            <li class="r t"><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> Limpeza e arrumação diária dos quartos;</li>
+                            <li class="r t"><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> TV a cabo/por assinatura;</li>
+                            <li class="r t"><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> Videovigilância em zonas públicas e de circulação;</li>
                             <li><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> Serviço de atendimento permanente (presencial ou automático);</li>
                             <li><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> Serviço de depósito de valores na recepção;</li>
                             <li><i class="fa fa-chevron-right" aria-hidden="true" style="color:#759abd;"></i> Serviço de recepção Bilingue (Português/Inglês);</li>
@@ -541,7 +541,7 @@
                                 </div>
 
                                 <div class="form-group">  
-                                    <input type="number" class="form-control" required name="numero_doc" id="doc" placeholder="Numero do Documento">
+                                    <input type="test" class="form-control" required name="numero_doc" id="doc" placeholder="Numero do Documento">
                                     <p class="help-block">Pode indicar o nº de BI ou de Passaporte</p>
                                 </div>
 
@@ -553,7 +553,7 @@
                                 <h4>Informações da Reserva</h4>
 
                                 <div class="form-group">
-                                    <input type="number" class="form-control"required  name="numero_quartos" id="quartos" placeholder="Numero de quartos">
+                                    <input type="number" min="0" class="form-control"required  name="numero_quartos" id="quartos" placeholder="Numero de quartos">
                                 </div>
 
                                 <div class="form-group">  
@@ -581,11 +581,14 @@
                                             </select>
                                         </div>        
                                         <div class="col-xs-6">
+                                            <input type="number" min="0" class="form-control" required  name="numero_de_adultos" id="numero_adultos" placeholder="Numero de quartos">
+                                            <!--
                                             <select class="form-control" required id="numero_adultos" name="numero_de_adultos">
                                                 <option value="">Adultos</option>
                                                 <option>1</option>
                                                 <option>2</option>
                                             </select>
+                                            -->
                                         </div>
                                     </div>
                                 </div>
